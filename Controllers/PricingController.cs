@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ClickedApi.Controllers
 {
-    [Route("Api/[controller]")]
+    [Route("api/[controller]")]
     [ApiController]
     public class PricingController : Controller
     {
@@ -111,6 +111,6 @@ namespace ClickedApi.Controllers
             }
 
             return Ok(response);
-        }
+        }            
     }
 }

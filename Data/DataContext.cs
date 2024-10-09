@@ -16,6 +16,7 @@ namespace ClickedApi.Data
 
         public DbSet<Services> Services { get; set; }
         public DbSet<Pricing> Pricings { get; set; }
+        public DbSet<Review> Reviews { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
